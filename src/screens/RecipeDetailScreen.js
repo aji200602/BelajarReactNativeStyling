@@ -15,7 +15,7 @@ console.log('recipeId', recipeId)
         <ScrollView style={styles.screen}>
             <Image
             source={{ uri: recipeDetails.image}}
-            resizeMode="cover"
+            resizeMode="strech"
             style={styles.imageRecipe}>
             </Image>
         </ScrollView>
